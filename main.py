@@ -37,9 +37,6 @@ def insert():
 @app.route("/create")
 def regi():
     return render_template("table.html")
-@app.route("/bliiin")
-def zent():
-    return render_template("Basico.html")
 
 @app.route("/login2",methods=["POST","GET"])
 def login2():
