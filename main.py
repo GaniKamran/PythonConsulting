@@ -44,10 +44,7 @@ def login2():
        Usr = request.form['nm']
        if Usr == "admin":
            return render_template("table.html")
-       if Usr =="Zenon":
-           return render_template("index.html")
-       if Usr == "Zenon1":
-           return game(Usr)
+    
        else:
         return render_template("BasLogin.html")
 
